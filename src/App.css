@@ -1,8 +1,8 @@
 .App {
-  text-align: center;
+  box-sizing: inherit;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -28,12 +28,12 @@
 
 @keyframes App-logo-float {
   0% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
   50% {
-    transform: translateY(10px)
+    transform: translateY(20px);
   }
   100% {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
-}
+} */

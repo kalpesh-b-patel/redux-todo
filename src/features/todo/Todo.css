@@ -1,0 +1,81 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  box-sizing: border-box;
+}
+
+.todos__input {
+  margin: 10px;
+}
+
+.todos__input input {
+  width: 100%;
+  box-sizing: inherit;
+  padding: 5px;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bolder;
+}
+
+.todos__priority {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.todos__priority label {
+  margin-left: 5px;
+}
+
+.todos__submit {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid black;
+  font-family: inherit;
+  font-weight: bolder;
+}
+
+.todos__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+}
+
+.todos__list ul {
+  list-style: none;
+}
+
+.todos__list--item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 580px) {
+  .todos {
+    width: 580px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .todos {
+    width: 680px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .todos {
+    width: 780px;
+    margin: 0 auto;
+  }
+}
